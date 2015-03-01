@@ -13,7 +13,7 @@
        http://www.springframework.org/schema/cache/spring-cache.xsd ">
 
        <context:property-placeholder location="classpath:jdbc.properties" system-properties-mode="ENVIRONMENT"/>
-       <context:component-scan base-package="com.itgreeckapp.bookmanager.repository"/>
+       <context:component-scan base-package="com.itgreeckapp.bookmanager.repository, com.itgreeckapp.bookmanager.validator"/>
 
        <tx:annotation-driven transaction-manager="transactionManager"/>
 
