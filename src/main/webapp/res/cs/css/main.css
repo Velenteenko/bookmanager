@@ -11,3 +11,7 @@ td, th {
 .error {
     color: #ff9629;
 }
+.login-link-container{
+    text-align: right;
+    color: darkred;
+}
